@@ -7,7 +7,10 @@
 </p>
 
 > Simple sudoku app project
+
 > Note that this proyect is WIP
+
+> Note that comments in the code will be mostly in spanish, I will try to do it in English too.
 
 ## Install
 
