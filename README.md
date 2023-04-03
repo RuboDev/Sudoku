@@ -7,6 +7,7 @@
 </p>
 
 > Simple sudoku app project
+> Note that this proyect is WIP
 
 ## Install
 
