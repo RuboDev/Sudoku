@@ -27,7 +27,7 @@ function generateSudoku() {
     }
   
     // Eliminar algunos números aleatorios del tablero para generar un sudoku incompleto
-    let numberOfCellsToLeave = 40; // Número de celdas que se dejarán en blanco
+    let numberOfCellsToLeave = 40; // Número de celdas que se rellenarán - Number of cells that will be filled with numbers
     let cellsLeft = 81;
     while (cellsLeft > numberOfCellsToLeave) {
       let row = Math.floor(Math.random() * 9);
