@@ -24,6 +24,10 @@ npm install
 npm run test
 ```
 
+## License
+
+All code is released under [MIT](LICENSE) License
+
 ## Author
 
 👤 **RuboDev**
