@@ -79,17 +79,24 @@
     <button onclick="createTable(generateSudoku())">Generar Sudoku</button>
     <div class="row">
       <div
-        class="container col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4 d-flex flex-wrap"
+        class="container col-9 col-sm-8 col-md-7 col-lg-6 col-xl-5 col-xxl-4 align-items-center"
       >
         <div class="sudoku-grid ratio ratio-1x1"></div>
+        <!-- TODO: Escribir un script que segun la celda seleccionada y 
+          usando estos botones, escriba el numero del boton usado en la celda -->
+        <div class="row container my-5 g-0 d-flex">
+          <button class="col">0</button>
+          <button class="col">1</button>
+          <button class="col">2</button>
+          <button class="col">3</button>
+          <button class="col">4</button>
+          <button class="col">5</button>
+          <button class="col">6</button>
+          <button class="col">7</button>
+          <button class="col">8</button>
+          <button class="col">9</button>
+        </div>
       </div>
     </div>
-
-    <table border="solid">
-      <td onclick="doThis()"></td>
-      <!-- TODO: cuando clickemos cada celda del sudoku abrir un modal 
-        con los numeros del 1 al 9 para seleccionar y rellenar con 
-        ese numero. No usar inputs para evitar errores y mayor estilo-->
-    </table>
   </body>
 </html>

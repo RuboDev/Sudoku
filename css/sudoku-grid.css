@@ -47,3 +47,10 @@ button {
 .sudoku-grid table td:has(input[id^='sudoku-input-']):hover {
     box-shadow: inset 0 0 0 99999px rgba(0,0,0,0.5)
 }
+
+/* media query para quitar el padding de las celdas en pantallas pequeñas */
+@media (max-width: 575px) {
+    .sudoku-grid table td {
+        padding: 0;
+    }
+}

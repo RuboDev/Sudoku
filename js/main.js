@@ -19,15 +19,8 @@ function createTable(tableData) {
       var cell = document.createElement("td");
 
       cell.appendChild(document.createTextNode(cellData));
+      
       row.appendChild(cell);
-
-      // Crear un input en las celdas cuyo texto sea ' '
-      if (cell.textContent === " ") {
-        var cellInput = document.createElement("input");
-        cellInput.type = "text";
-        cellInput.id = "sudoku-input-" + cell.cellIndex;
-        cell.appendChild(cellInput);
-      }
     });
 
     tableBody.appendChild(row);
